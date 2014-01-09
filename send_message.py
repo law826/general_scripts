@@ -1,6 +1,5 @@
 import smtplib
 
-
 def send_text():
 	"""
 	Sends text message when script finishes running.

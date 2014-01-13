@@ -15,3 +15,6 @@ def send_text():
 	server.login(username, password)
 	server.sendmail(fromaddr, toaddrs, msg)
 	server.quit()
+
+if __name__ == '__main__':
+	send_text()
